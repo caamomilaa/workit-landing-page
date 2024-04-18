@@ -1,16 +1,27 @@
-.title{
-    color: var(--color-white);
-    font-family: "Fraunces", serif;
-    font-size: 3.125rem;
-    font-weight: 600;
+.title {
+  color: var(--color-white);
+  font-family: 'Fraunces', serif;
+  font-size: 3.125rem;
+  font-weight: 600;
+  margin: 0;
+  margin-bottom: 2.5rem;
 }
-.title--underline{
-    position: relative;
+.title--underline {
+  position: relative;
+  border-bottom: 3px solid var(--color-green);
 }
-.title--underline::after{
-    content: '';
-    position: absolute;
-    width: fit-content;
-    height: 50px;
-    background-color: var(--color-green);
+.subtitle {
+  font-family: 'Fraunces', serif;
+  color: var(--color-purple);
+  font-weight: 600;
+  font-size: 1.75rem;
+  font-weight: 2.25rem;
+}
+.subtitle--white {
+  font-family: 'Fraunces', serif;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 3rem;
+  color: var(--color-white);
+  margin-top: 0;
 }

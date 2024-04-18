@@ -1,0 +1,19 @@
+.items__container {
+  position: relative;
+  top: -20px;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background-color: var(--color-ghostwhite);
+  border-bottom-left-radius: 400px 50px;
+  border-bottom-right-radius: 400px 50px;
+  padding: 155px 16px 71px;
+}
+.item--purple {
+  position: relative;
+  top: -70px;
+  padding: 2rem;
+  background-color: var(--color-purple);
+  z-index: 2;
+}
