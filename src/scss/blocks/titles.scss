@@ -1,1 +1,16 @@
-
+.title{
+    color: var(--color-white);
+    font-family: "Fraunces", serif;
+    font-size: 3.125rem;
+    font-weight: 600;
+}
+.title--underline{
+    position: relative;
+}
+.title--underline::after{
+    content: '';
+    position: absolute;
+    width: fit-content;
+    height: 50px;
+    background-color: var(--color-green);
+}
